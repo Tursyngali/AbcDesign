@@ -1,0 +1,79 @@
+
+
+div.gallery1 {
+  
+  border: 1px soid #ccc;
+  padding: 0;
+  float: left;
+  width: 173.69px;
+  height: 43.82px;
+  box-shadow: 0px 5px 30px rgba(103, 103, 103, 0.13);
+  background: #FFFFFF;
+  text-align: center;
+  overflow: hidden;
+  margin-left: 34px;
+
+}
+
+div.gallery1:not(:last-child){
+  margin-right: 15px;
+}
+
+.slider{
+  padding-top :50px;
+  margin: 0 auto  ;
+  width: 1130px;
+  height: 574px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.slides{
+
+  width: 600%;
+  height: 43.82px;
+  display: flex;
+  
+
+}
+.slides input{
+  display: none;
+}
+.slide{
+  width: 20%;
+  transition: 3s;
+}
+.slide img{
+  width: 173.69px;
+  height: 43.82px;
+}
+
+.navigation-manual{
+
+  position: relative;
+  width: 1130px;
+  margin-top: -40px;
+
+}
+.manual-btn1{
+  position: relative;
+  cursor: pointer;
+
+
+}
+.manual-btn2{
+  position: relative;
+  cursor: pointer;
+  margin-left: 1065px;
+
+
+}
+
+
+#radio1:checked~ .first{
+  margin-left: 0;
+}
+#radio2:checked~ .first{
+  margin-left: -20%;
+}

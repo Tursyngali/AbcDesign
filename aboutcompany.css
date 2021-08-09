@@ -1,0 +1,131 @@
+
+.about_company{
+	position: relative;
+	width: 1217px;
+	height: 578px;
+	margin: 6% 5% 6% 5%;
+
+
+}
+.about_company h1{
+	
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 55px;
+	color: #333333;
+
+}
+	
+.about_company p{
+	width: 555px;
+	height: 332px;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #666666;
+}
+.about_company div{
+	position: absolute	;
+	margin-top: 20px;
+
+}
+
+.about_company button{
+	width: 221px;
+	height: 48px;
+	background: #07AAB6;
+	border: 2px solid #07AAB6;
+	box-sizing: border-box;
+	border-radius: 50px;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 460px;
+	color: #FFFFFF;
+}
+.about_company button:hover{
+	background: #FFFFFF;
+	color: #07AAB6;
+}
+
+.about_company img{
+	position: absolute;
+	margin: 0 auto;
+	right: 0;
+	height: 578px;
+	width: 594px;
+	
+}
+.verticalLine{
+	border-bottom:2px #ff0000;
+	border-width: 1px;
+
+}
+
+.company_counts{
+
+	height: 340px;
+	position: relative;
+	overflow: hidden;
+	
+	
+}
+.company_counts #grey_background{
+	margin-top: 5px;
+	margin-left: -5px;
+	width: 1490px;
+	height: 315px;
+	transform:rotate(-1.5deg);
+	background: transparent ;
+	
+}
+.company_counts #grey_background:hover{
+	outline: 3px solid #07AAB6;
+}
+.company_counts .data{
+
+	display: flex;
+	float: left;
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 55px;
+	color: #333333;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 64px;
+	color: #115170;
+	margin: 45px;
+	margin-top: 170px;
+
+}
+.company_counts .data p{
+	width: 103px;
+	height: 48px;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #666666;
+}
+.company_counts h1{
+	position: absolute;
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 55px;
+	color: #333333;
+	margin: 45px;
+}

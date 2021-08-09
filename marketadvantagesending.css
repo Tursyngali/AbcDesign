@@ -1,0 +1,230 @@
+
+.services{
+	width: 1368px;
+	height: 430px;
+	overflow: hidden;
+	margin-top: 70px;
+
+}
+.services h1{
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 64px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	color: #333333;
+	order: 1;
+	flex-grow: 0;
+	margin-left: 40px;
+}
+
+.services div{
+	position: relative;
+	display: flex;
+	float: left;
+	width: 399px;
+	height: 316px;
+	margin-left: 3.5%;
+	background: #115170;
+	
+}
+.services div:not(:last-child){
+	margin-right: -15px;
+}
+.service_list i{
+
+	position: absolute;
+	padding: 20px;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	margin: 60px;
+	margin-left: -5px;
+	
+
+
+}
+.service_list h1{
+	position: absolute;
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 22px;
+	width: 267px;
+	height: 22px;
+	color: #FFFFFF;
+	margin-top: 150px;
+	margin-left: 15px;
+
+
+}
+
+.service_list p{
+	position: absolute;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	width: 319px;
+	height: 78px;
+	color: #B8CAD3;	
+	margin-top: 185px;
+	padding: 15px;
+}
+
+
+.market{
+	width: 1132px;
+	height: 396px;
+	margin: 8%;
+
+}
+.market_inline{
+	display: inline-block;
+
+}
+
+.market_inline:not(:first-child){
+	margin-left: 243px;
+}
+.market p{
+	width: 545px;
+	height: 280px;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 26px;
+	color: #666666;
+
+}
+.market h1{
+
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 55px;
+	color: #333333;
+	margin-top: -20px;
+}
+.market img{
+	width: 340px;
+	height: 396px;
+
+}
+
+.advantages{
+	margin: 5%;
+	width: 1215px;
+	height: 376px;
+}
+
+.advantages h1{
+	padding-top: 10px;
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 55px;
+	color: #333333;
+}
+.advantages p{
+	font-family: Exo 2;
+	font-style: normal;		
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #666666;
+}
+.advantages .advantage h2{
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 22px;
+	color: #222222;
+}
+
+.advantages div{
+	position: relative;
+	display: flex;
+	float: left;
+	margin-top: 25px;
+	width: 372px;
+	background: #EEF4F4;;
+    height: 205px;
+}
+
+.advantages .advantage{
+	display: block;
+	padding-top: 50px;
+	padding-left: 25px;
+}
+.advantages div:not(:last-child){
+	margin-right: 10px;
+}
+
+.sending1{
+	overflow: hidden;
+	width: 1366px;
+	height: 482px;
+	position: relative;
+
+}
+
+.sending1 #blue_background{
+	margin-top: -480px;
+	margin-left: -10px;
+	width: 1400px;
+	height: 465px;
+	background:transparent;
+	transform:rotate(-1.5deg);
+
+}
+.sending1 #blue_background:hover{
+	outline: 3px solid  #07AAB6;
+}
+.sending1 .text_send{
+	padding-top: 50px;
+	margin: 25px;
+	width: 712px;
+	height: 388px;
+}
+.sending1 .text_send h1{
+	font-family: Jost;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 52px;
+color: #07AAB6;
+}
+.sending1 .text_send p{
+font-family: Exo 2;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px
+}
+
+.sending1 input{
+border: 3px solid #07AAB6;
+opacity: 0.4;
+border-radius: 50px;
+width: 250px;
+height: 50px;
+color: white;
+}
+.sending1 button{
+background: #115170;
+border-radius: 50px;
+width: 174px;
+height: 48px;
+color: #FFFFFF;
+}

@@ -1,0 +1,146 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 1366px;
+	height: 5949px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+header{
+	
+	width: 1366px;
+	height: 145px;
+	background: whitesmoke;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#send1{
+		height: 25px;
+	width: 141px;
+	cursor: pointer;
+	border: 1px solid #333333;
+	box-sizing: border-box;
+	border-radius: 30px;
+	margin-left: 840px;
+	background: #07AAB6;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-top: -70px;
+
+
+}
+#send1 button{
+
+	width: 141px;
+	height: 19px;
+	border: none;
+	background: transparent;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+
+
+.navigations{
+	width: 1530px;
+	height: 24px;
+	margin-left: 170px;
+
+}
+.navigations label:not(:last-child){
+	width: 150px;
+	text-align: center;
+	padding-right: 170px;
+
+}
+.navigations label :hover{
+	color: #07AAB6;
+}
+.navigations a{
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #222222;
+	top: 95px;
+	text-decoration: none;
+	position: absolute;
+	width: 157px;
+	height: 24px;
+
+
+}
+
+.logo{
+	width: 200px;
+	height: 27.52px;
+	left: 170px;
+	color: #115170;
+	padding: 25px;
+}
+
+.header_img{
+	position: relative;
+	width: 1366px;
+	height: 623px;
+	background-image:linear-gradient(61.75deg, #11506E 17.36%, rgba(17, 80, 110, 0) 73.12%), url("https://pbs.twimg.com/media/DePy3p4VMAApiif.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+
+}
+
+.header_img div{
+	position: absolute;
+	font-family: Jost;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 72px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	margin: 60px;
+	margin-top: 150px;
+	padding: 10px;
+	
+}
+.header_img p{
+	width: 541px;
+	height: 120px;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.header_img button{
+	width: 221px;
+	height: 48px;
+	background: #07AAB6;
+	border: 2px solid #07AAB6;
+	box-sizing: border-box;
+	border-radius: 50px;
+	font-family: Exo 2;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 250px;
+	color: #FFFFFF;
+	
+}
+.header_img button:hover{
+	background: #FFFFFF;
+	color: #07AAB6;
+}
